@@ -1,0 +1,232 @@
+body {
+    background-color: #c0f7ff,;
+    font-family: 'Georgia', serif;
+
+}
+
+
+.Loginform{
+   
+    width: 365px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.8rem;
+    box-shadow: 0px 0px 10px rgb(56, 56, 120);
+    border-radius: 5px;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    padding: 1rem;
+}
+
+.buttons button{
+    margin-left: 1rem;
+    border: 1px solid orange;
+    outline: none;
+    padding: 0.34rem;
+    border-radius: 4px;
+    background-color: #17a2b8;
+    color: white;
+    width: 100px;
+}
+
+input{
+    margin: 0.78rem;
+    outline: none;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    color: rgb(9, 9, 9);
+    cursor: pointer;
+}
+
+.Availabilty{
+    /* width: 50%; */
+    border-right: 1px solid black;
+    margin: 1rem auto;
+    /* height: 100vh; */
+    display: flex;
+   
+}
+
+.timing{
+    /* width: 0%; */
+    border-right: 1px solid black;
+    margin-left: 2rem;
+}
+.Availabilty h2{
+    text-align: center;
+}
+
+.weekdays{
+    width: 90%;
+    display: flex;
+    
+    margin-top: 3rem;
+    
+   
+}
+
+.weekdays span{
+    width: calc(100% / 7);
+    font-size: clamp(1rem,0.8cqi,1.3rem);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #17a2b8;
+    letter-spacing: 0.05rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.days{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    /* position: absolute; */
+ 
+}
+
+.days span{
+    width: calc(100% / 7);
+    font-size: clamp(1rem,0.8cqi,1.3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+    text-shadow:0 .5rem,1rem,rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    color: #c37406;
+   
+}
+
+#availability{
+    padding: 0.67rem;
+    border-radius: 4px;
+}
+
+.event-popup{
+    /* border-bottom: 1px solid black;
+    border-top: 1px solid black; */
+    border-radius: 5px;
+    position: relative;
+    top: -300px;
+    background-color: #84a6ab;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.updatepopu{
+    border-radius: 5px;
+    position: relative;
+    top: -450px;
+    background-color: #84a6ab;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 90%;
+    left: 470px;
+    z-index: 2;
+}
+.time-input{
+    border-bottom: 1px solid black;
+    margin: 1rem;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.close{
+   align-self: flex-end;
+   /* margin-right: 0.45rem; */
+   /* border: 1px solid gold; */
+   background-color: #f3bb43;
+   height: 30px;
+   width: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   cursor: pointer;
+ 
+}
+
+.schedule{
+    box-sizing: border-box;
+    overflow-y: scroll;
+    height: 70vh;
+    /* border: 2px solid blueviolet; */
+    width: 40%;
+    margin-left: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.slot{
+    /* border: 1px solid black; */
+    margin: 1rem;
+    background-color:  rgb(7, 36, 59);
+}
+
+.duration{
+    text-decoration: 1px solid underline rgb(14, 224, 123);
+    color: rgb(22, 148, 252);
+}
+.user{
+    color: #2501da;
+    text-decoration: 2px solid underline orange;
+    margin-top: 1rem;
+}
+
+
+.start{
+    color: white;
+
+}
+.end{
+    color: rgb(255, 162, 0);
+}
+.home{
+    width: 100%;
+    height: 20vh;
+}
+
+.about{
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    flex: 1;
+    border: 1px solid black;
+}
+
+.nav-item{
+    margin: 1rem;
+    
+}
+
+.li{
+    text-decoration: none;
+    color: #17a2b8;
+}
